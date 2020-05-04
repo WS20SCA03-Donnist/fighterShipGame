@@ -13,6 +13,8 @@
 		F470DD472460594400869F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470DD452460594400869F13 /* Main.storyboard */; };
 		F470DD492460594600869F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F470DD482460594600869F13 /* Assets.xcassets */; };
 		F470DD4C2460594600869F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470DD4A2460594600869F13 /* LaunchScreen.storyboard */; };
+		F470DD5624605B4400869F13 /* BasicFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DD5524605B4300869F13 /* BasicFighter.swift */; };
+		F470DD5824605CC900869F13 /* FighterOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DD5724605CC900869F13 /* FighterOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F470DD482460594600869F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F470DD4B2460594600869F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F470DD4D2460594600869F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F470DD5524605B4300869F13 /* BasicFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFighter.swift; sourceTree = "<group>"; };
+		F470DD5724605CC900869F13 /* FighterOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F470DD412460594400869F13 /* SceneDelegate.swift */,
 				F470DD432460594400869F13 /* ViewController.swift */,
 				F470DD452460594400869F13 /* Main.storyboard */,
+				F470DD5524605B4300869F13 /* BasicFighter.swift */,
+				F470DD5724605CC900869F13 /* FighterOne.swift */,
 				F470DD482460594600869F13 /* Assets.xcassets */,
 				F470DD4A2460594600869F13 /* LaunchScreen.storyboard */,
 				F470DD4D2460594600869F13 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F470DD5624605B4400869F13 /* BasicFighter.swift in Sources */,
 				F470DD442460594400869F13 /* ViewController.swift in Sources */,
 				F470DD402460594400869F13 /* AppDelegate.swift in Sources */,
+				F470DD5824605CC900869F13 /* FighterOne.swift in Sources */,
 				F470DD422460594400869F13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.fighterShipGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.fighterShipGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
